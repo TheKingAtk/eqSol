@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/pi" android:title="@string/pi"/>
+    <item android:id="@+id/e" android:title="@string/e"/>
+    <item android:id="@+id/c"  android:title="@string/c"/>
+    <item android:id="@+id/k"  android:title="@string/boltzmann_number"/>
+    <item android:id="@+id/na" android:title="@string/avagadro_number"/>
+</menu>

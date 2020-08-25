@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:layout_margin="30dp"
+android:layout_gravity="center"
+android:gravity="center">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="end|bottom"
+    android:textSize="30sp"
+    android:id="@+id/expBox"
+    android:scrollbars="vertical"
+    />
+
+<View
+    android:id="@+id/expression"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:gravity="center" />
+
+<TextView
+    android:id="@+id/ansBox"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:ems="20"
+    android:gravity="end|center_vertical"
+    android:textSize="30sp" />
+
+<View
+    android:id="@+id/answer"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:gravity="center" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="315dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary" />
+        <Button
+            android:id="@+id/buttonFunc"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="@string/func"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonConts"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="@string/conts"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary" />
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="@string/ce"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary" />
+        <Button
+            android:id="@+id/buttonDel"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="@string/del"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary" />
+        <Button
+            android:id="@+id/buttonAns"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="@string/ans"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/_1"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50dp"
+
+                android:layout_height="50dp"
+                android:text="@string/_2"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="50dp"
+
+                android:layout_height="50dp"
+                android:text="@string/_3"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/_4"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/_5"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/_6"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/_7"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/_8"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/_9"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/_0"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/buttonPoint"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/Point"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/buttonExpo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/expo"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonOpen"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/openBra"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/buttonClosed"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/closeBra"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <Button
+                android:id="@+id/buttonEquals"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/equals" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonMult"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/mult"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/divide"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/plus"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <Button
+            android:id="@+id/buttonSub"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/subtract"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+        <Button
+            android:id="@+id/buttonPow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/pow"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

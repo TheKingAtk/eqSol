@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">EQsol</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">add</string>
+    <string name="remove">Remove</string>
+    <string name="ok">SOLVE</string>
+    <string name="_1">1</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="Point">.</string>
+    <string name="equals">=</string>
+    <string name="mult">x</string>
+    <string name="divide">/</string>
+    <string name="plus">+</string>
+    <string name="subtract">-</string>
+    <string name="func">func</string>
+    <string name="conts">conts</string>
+    <string name="ce">ce</string>
+    <string name="del">del</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="ans">Ans</string>
+    <string name="openBra">(</string>
+    <string name="closeBra">)</string>
+    <string name="expo">10^</string>
+    <string name="pow">^</string>
+    <string name="avagadro_number">Avagadro Number</string>
+    <string name="pi">PI</string>
+    <string name="e">e</string>
+    <string name="c">c</string>
+    <string name="boltzmann_number">Boltzmann Constant</string>
+    <string name="sin">sin(x)</string>
+    <string name="cos_x">cos(x)</string>
+    <string name="tan_x">tan(x)</string>
+    <string name="sinh_x">sinh(x)</string>
+    <string name="cosh_x">cosh(x)</string>
+    <string name="abs_x">abs(x)</string>
+    <string name="radians"><![CDATA[->Radians]]></string>
+    <string name="degrees"><![CDATA[->Degrees]]></string>
+    <string name="sininv_x">Sin<sup>-1</sup>(x)</string>
+    <string name="cosinv_x">Cos<sup>-1</sup>(x)</string>
+    <string name="ln_x">ln(x)</string>
+    <string name="calculator">Calculator</string>
+    <string name="equation_solver">Linear Equation Solver</string>
+    <string name="eq_1">Eq:1</string>
+    <string name="eq_2">Eq:2</string>
+    <string name="eq_3">Eq:3</string>
+    <string name="eq_4">Eq:4</string>
+    <string name="eq_5">Eq:5</string>
+    <string name="eq_6">Eq:6</string>
+    <string name="eq_7">Eq:7</string>
+    <string name="eq_8">Eq:8</string>
+    <string name="eq_9">Eq:9</string>
+    <string name="eq_10">Eq:10</string>
+    <string name="solutions">Solutions:</string>
+    <string name="history">History</string>
+</resources>

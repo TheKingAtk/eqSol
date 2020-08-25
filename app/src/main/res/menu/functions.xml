@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/sin" android:title="@string/sin"/>
+        <item android:id="@+id/cos" android:title="@string/cos_x"/>
+        <item android:id="@+id/tan" android:title="@string/tan_x"/>
+        <item android:id="@+id/sinh" android:title="@string/sinh_x"/>
+        <item android:id="@+id/cosh" android:title="@string/cosh_x"/>
+        <item android:id="@+id/ln" android:title="@string/ln_x"/>
+    <item android:id="@+id/abs" android:title="@string/abs_x"/>
+    <item android:id="@+id/radian" android:title="@string/radians"/>
+    <item android:id="@+id/degree" android:title="@string/degrees"/>
+    <item android:id="@+id/sininv" android:title="@string/sininv_x"/>
+    <item android:id="@+id/cosinv" android:title="@string/cosinv_x"/>
+</menu>
